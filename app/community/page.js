@@ -1,7 +1,7 @@
 export default function CommunityPage() {
   return (
     <main>
-      <h1>These are the communities</h1>
+      <h1>Community</h1>
     </main>
   )
 }
