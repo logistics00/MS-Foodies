@@ -13,6 +13,16 @@ body {
   background: radial-gradient(#282c34, #282c34);
 }
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: lightblue;
+  text-align: center;
+}
+
 .header-background {
   position: absolute;
   width: 100%;
