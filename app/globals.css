@@ -18,10 +18,11 @@ h1 {
   text-align: center;
 }
 
-p {
+/* p,
+p a {
   color: lightblue;
   text-align: center;
-}
+} */
 
 .header-background {
   position: absolute;
