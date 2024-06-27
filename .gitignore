@@ -38,3 +38,7 @@ next-env.d.ts
 # Microsoft
 *.docx
 *.tmp
+
+# Database
+initdb.js
+meals.db
