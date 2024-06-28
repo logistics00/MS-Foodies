@@ -13,11 +13,11 @@ export default function Home() {
         <div>
           <div className={classes.hero}>
             <h1>Heerlijk Eten voor smulpapen</h1>
-            <p>Recepten binnen de Mollers-familie</p>
+            <p>Recepten aangeboden door de Mollers-familie</p>
           </div>
           <div className={classes.cta}>
-            <Link href='/community'>De Mollers gemeenschap</Link>
-            <Link href='/meals'>Recepten</Link>
+            <Link href='/community'>Personen</Link>
+            <Link href='/meals'>Maaltijden</Link>
           </div>
         </div>
       </header>
