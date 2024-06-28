@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 
 import MealsGrid from '@/components/meals/meals-grid'
+import MealsLoadingPage from './loading-out'
 import classes from './page.module.css'
 import { getMeals } from '@/lib/meals'
 
@@ -23,7 +24,8 @@ export default function MealsPage() {
         </p>
       </header>
       <main className={classes.main}>
-        <Suspense fallback={<p className={classes.loading}>Gegevens worden opgehaald ...</p>}>
+        {/* <Suspense fallback={<p className={classes.loading}>Gegevens worden opgehaald ...</p>}> */}
+        <Suspense fallback={<MealsLoadingPage />}>
           <Meals />
         </Suspense>
       </main>
