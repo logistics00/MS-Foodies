@@ -37,7 +37,7 @@ export default function ShareMealPage() {
           </p>
           <p>
             <label htmlFor='searchStrings'>Search strings</label>
-            <input type='text' id='searchStrings' name='searchStrings' required />
+            <textarea id='searchStrings' name='searchStrings' rows='3' required />
           </p>
           <p>
             <label htmlFor='ingradients'>Ingradients</label>

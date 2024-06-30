@@ -15,6 +15,7 @@ export default function MealDetailsPage({ params }) {
   meal.ingradients = meal.ingradients.replace(/\n/g, '<br />')
   meal.instructions = meal.instructions.replace(/\n/g, '<br />')
   meal.extra = meal.extra.replace(/\n/g, '<br />')
+  meal.search_strings = meal.search_strings.replace(/\n/g, '<br />')
 
   return (
     <>
@@ -32,6 +33,8 @@ export default function MealDetailsPage({ params }) {
         </div>
       </header>
       <main>
+        <p className={classes.headings}>Zoektermen:</p>
+        <p className={classes.text} dangerouslySetInnerHTML={{ __html: meal.search_strings }}></p>
         <p className={classes.headings}>Ingrediënten:</p>
         <p className={classes.text} dangerouslySetInnerHTML={{ __html: meal.ingradients }}></p>
         <p className={classes.headings}>Werkwijze:</p>
