@@ -12,17 +12,17 @@
 }
 
 .headerText {
-  padding: 0.5rem 1rem 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .headerText h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 .headerText p {
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   color: #cfa69b;
   font-style: italic;
 }
@@ -34,7 +34,7 @@
 
 .image {
   position: relative;
-  height: 15rem;
+  height: 5rem;
 }
 
 .meal img {
@@ -49,18 +49,19 @@
 }
 
 .summary {
+  font-size: 0.5rem;
   padding: 1rem 1rem 0 1rem;
 }
 
 .actions {
-  padding: 1rem;
-  text-align: right;
+  padding: 0rem;
 }
 
 .actions a {
+  font-size: 0.5rem;
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   border-radius: 0.5rem;
   background: linear-gradient(90deg, #f9572a, #ff9b05);
   color: #ffffff;
